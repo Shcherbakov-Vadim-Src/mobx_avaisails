@@ -1,0 +1,159 @@
+  .main-contiener{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .render_data_box{
+      margin: 0 0 0 250px;
+  }
+
+  .header{
+    text-align: center;
+    margin: 40px 0;
+  }
+
+  .flex_row, .date_box, .airport_box, .main_conteiner, .checkbox_conteiner{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .flex_column, .price_box{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flight_conteiner{
+    margin-top: 17px;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid rgb(184, 169, 169);
+    text-align: center;
+  }
+  
+  .airport_box{
+    justify-content: center;
+  }
+  
+  .price_box{
+    background-color: cornflowerblue;
+  }
+  
+  .price, .price-text{
+    margin: 4px 5px 0 0;
+    text-align: end;
+    color: white;
+    padding: 4px;
+    font-size: 22px;
+  }
+
+  .price-text{
+    font-size: 16px;
+    margin: -3px 5px 0;
+  }
+  
+  .aeroport{
+    margin: 10px 7px;
+  }
+  
+  .reis{
+    text-align: start;
+    font-size: 16px;
+    margin: 0 0 7px 22px;
+  }
+  
+  .date_box{
+    justify-content: space-between;
+  }
+  
+  .date{
+    margin: 10px 23px 8px 20px;
+    color: black;
+    font-size: 20px;
+  }
+
+  .date_blue{
+      color: rgb(57, 57, 202);
+  }
+  
+  .transfer{
+    text-align: center;
+  }
+  
+  .submit{
+    border: none;
+    border-radius: 2px;
+    padding: 7px;
+    color: white;
+    background-color: rgb(221, 175, 90);
+    width: 571px;
+  }
+  
+  .submit:hover{
+    background-color: rgb(221, 153, 26);
+  }
+  
+  .hr{
+    margin: 14px auto;
+    width: 470px;
+    height: 0;
+  }
+
+  .hr_mini{
+    margin: 25px auto;
+    width: 176px;
+    height: 0;
+  }
+  
+  .fixed{
+    background-color: rgb(231, 220, 220);
+    border-radius: 10px;
+    width: 350px;
+    height: 697px;
+    margin: 40px;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    left: 185px;
+    top: 85px;
+  }
+  
+  .button{
+    margin: 5px;
+    width: 325px;
+  }
+  
+  .checkbox, .title_name{
+    margin: 0 11px;
+  }
+  
+  .button_result{
+    margin: 0 auto;
+  }
+
+  .checkbox_conteiner{
+      margin: 10px 0 0 10px;
+  }
+
+  .input{
+    width: 217px;
+  }
+
+  .input_name{
+    margin: 0 12px 0 4px;
+  }
+
+  .filter_name{
+    color: rgb(57, 57, 202);
+    margin: 24px 14px 6px;
+    text-align: start;
+    font-weight: 700;
+  }
+
+  .checkbox:hover, .title_name:hover{
+    color: midnightblue;
+  }
+
+  
+  
